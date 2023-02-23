@@ -1,0 +1,59 @@
+$color: red;
+
+@mixin border($radius) {
+  border: 1px solid red;
+  border-radius: $radius;
+}
+
+button {
+  @include border($radius: 30px);
+}
+
+div {
+  @include border($radius: 20px);
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  color: $color;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 104px;
+
+    &--red {
+      color: red;
+    }
+
+    .text {
+      color: pink;
+    }
+
+    .wrapper {
+      display: flex;
+    }
+  }
+
+  &__logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252b42;
+    text-decoration: none;
+    margin-right: 135px;
+  }
+}
+
+.list {
+  &.banner__list {
+    color: red;
+  }
+}
+
+@for $i from 1 through 5 {
+  .block#{$i} {
+    background-image: url("img/bg#{$i}.png");
+  }
+}

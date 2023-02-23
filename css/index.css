@@ -1,0 +1,73 @@
+button {
+  border: 1px solid red;
+  border-radius: 30px;
+}
+
+div {
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  color: red;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 104px;
+}
+
+.header__wrapper--red {
+  color: red;
+}
+
+.header__wrapper .text {
+  color: pink;
+}
+
+.header__wrapper .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252b42;
+  text-decoration: none;
+  margin-right: 135px;
+}
+
+.list.banner__list {
+  color: red;
+}
+
+.block1 {
+  background-image: url("img/bg1.png");
+}
+
+.block2 {
+  background-image: url("img/bg2.png");
+}
+
+.block3 {
+  background-image: url("img/bg3.png");
+}
+
+.block4 {
+  background-image: url("img/bg4.png");
+}
+
+.block5 {
+  background-image: url("img/bg5.png");
+}
+/*# sourceMappingURL=index.css.map */
